@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.example.remitlyceapp",
+            "sha256_cert_fingerprints": [
+                "BF:58:38:FA:E0:3F:85:9D:A7:5B:B8:67:AB:66:A8:63:E0:55:44:11:64:C2:E5:D5:D0:BA:93:87:79:0F:A8:D6"
+            ]
+        }
+    }
+]
