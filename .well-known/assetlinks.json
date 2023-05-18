@@ -10,5 +10,17 @@
                 "BF:58:38:FA:E0:3F:85:9D:A7:5B:B8:67:AB:66:A8:63:E0:55:44:11:64:C2:E5:D5:D0:BA:93:87:79:0F:A8:D6"
             ]
         }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "net.openid.appauthdemo",
+            "sha256_cert_fingerprints": [
+                "FB:6A:82:2A:4E:C3:CA:9D:04:39:8E:A3:29:77:10:BD:2E:CF:50:15:35:21:64:2B:9F:1B:48:1A:A5:FF:85:FF"
+            ]
+        }
     }
 ]
