@@ -3,10 +3,10 @@
         "details": [{
             "appIDs": ["9GVV2WVHAT.com.remitly.cesdk"],
             "components": [{
-                "/": "/ra-oauth-test-server/callback/auth",
+                "/": "/callback/auth",
                 "comment": "OAuth redirect URL"
             }, {
-                "/": "/ra-oauth-test-server/callback/logout",
+                "/": "/callback/logout",
                 "comment": "OAuth logout URL"
             }]
         }]
