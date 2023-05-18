@@ -1,0 +1,14 @@
+{
+    "applinks": {
+        "details": [{
+            "appIDs": ["9GVV2WVHAT.com.remitly.cesdk"],
+            "components": [{
+                "/": "/callback/auth",
+                "comment": "OAuth redirect URL"
+            }, {
+                "/": "/callback/logout",
+                "comment": "OAuth logout URL"
+            }]
+        }]
+    }
+}
