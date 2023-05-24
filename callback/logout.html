@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 
-RA Example App <br/><br/>
 
-<a href="">Finish logout</a>
+<body>
+    RA Example App <br/><br/>
+
+    <a id="logout-link" href="">Finish logout</a>
+</body>
+
+<script>
+    document.getElementById("logout-link").setAttribute("href", window.location.href)
+</script>

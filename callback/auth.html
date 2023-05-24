@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 
-RA Example App <br/><br/>
 
-<a href="">Finish authenticating</a>
+<body>
+    RA Example App <br/><br/>
+
+    <a id="auth-link" href="">Finish authenticating</a>
+</body>
+
+<script>
+    document.getElementById("auth-link").setAttribute("href", window.location.href)
+</script>
