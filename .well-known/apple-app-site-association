@@ -5,12 +5,6 @@
             "components": [{
                 "/": "/callback/auth",
                 "comment": "OAuth redirect URL"
-            }, {
-                "/": "/callback/auth/",
-                "comment": "OAuth redirect URL"
-            }, {
-                "/": "/callback/logout",
-                "comment": "OAuth logout URL"
             }]
         }, {
             "appIDs": ["9GVV2WVHAT.com.remitly.cesdk.rn"],
