@@ -1,20 +1,35 @@
 {
     "applinks": {
-        "details": [{
-            "appIDs": ["9GVV2WVHAT.com.remitly.cesdk"],
-            "components": [{
-                "/": "/callback/auth",
-                "comment": "OAuth redirect URL"
-            }]
-        }, {
-            "appIDs": ["9GVV2WVHAT.com.remitly.cesdk.rn"],
-            "components": [{
-                "/": "rn/callback/auth",
-                "comment": "OAuth redirect URL for RN iOS"
-            }, {
-                "/": "rn/callback/logout",
-                "comment": "OAuth logout URL for RN iOS"
-            }]
-        }]
+        "details": [
+            {
+                "appIDs": [
+                    "9GVV2WVHAT.com.remitly.cesdk"
+                ],
+                "paths": [
+                    "/callback/auth?*"
+                ],
+                "components": [
+                    {
+                        "/": "/callback/auth?*",
+                        "comment": "OAuth redirect URL"
+                    }
+                ]
+            },
+            {
+                "appIDs": [
+                    "9GVV2WVHAT.com.remitly.cesdk.rn"
+                ],
+                "components": [
+                    {
+                        "/": "rn/callback/auth",
+                        "comment": "OAuth redirect URL for RN iOS"
+                    },
+                    {
+                        "/": "rn/callback/logout",
+                        "comment": "OAuth logout URL for RN iOS"
+                    }
+                ]
+            }
+        ]
     }
 }
